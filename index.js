@@ -1,59 +1,44 @@
-let homeScoreEl = document.getElementById('home-score')
-let guestScoreEl = document.getElementById('guest-score')
-
-let homeScoreBtnOne = document.getElementById("home-score-btn-1")
-let guestScoreBtnOne = document.getElementById("guest-score-btn-1")
-
-let homeScoreBtnTwo = document.getElementById("home-score-btn-2")
-let guestScoreBtnTwo = document.getElementById("guest-score-btn-2")
-
-let homeScoreBtnThree = document.getElementById("home-score-btn-3")
-let guestScoreBtnThree = document.getElementById("guest-score-btn-3")
+const homeScoreEl = document.getElementById('home-score')
+const guestScoreEl = document.getElementById('guest-score')
+const homeScoreBtnOne = document.getElementById("home-score-btn-1")
+const guestScoreBtnOne = document.getElementById("guest-score-btn-1")
+const homeScoreBtnTwo = document.getElementById("home-score-btn-2")
+const guestScoreBtnTwo = document.getElementById("guest-score-btn-2")
+const homeScoreBtnThree = document.getElementById("home-score-btn-3")
+const guestScoreBtnThree = document.getElementById("guest-score-btn-3")
 
 let homeScore = 0
 let guestScore = 0
 
-
-// console.log(homeScoreEl);
-
-function increaseHomeScoreOne(){
+homeScoreBtnOne.addEventListener('click', function increaseHomeScoreOne(){
     // console.log('clicked');
-    homeScore += 1
+    homeScore++
     // console.log(homeScore)
     homeScoreEl.textContent = homeScore
-}
+})
 
-function increaseHomeScoreTwo(){
-    // console.log('clicked');
+homeScoreBtnTwo.addEventListener('click', function increaseHomeScoreTwo(){
     homeScore += 2
-    // console.log(homeScore)
     homeScoreEl.textContent = homeScore
-}
+})
 
-function increaseHomeScoreThree(){
-    // console.log('clicked');
+homeScoreBtnThree.addEventListener('click', function increaseHomeScoreThree(){
     homeScore += 3
-    // console.log(homeScore)
     homeScoreEl.textContent = homeScore
-}
+})
 
-function increaseGuestScoreOne(){
-    // console.log('clicked');
-    guestScore += 1
-    // console.log(homeScore)
+guestScoreBtnOne.addEventListener('click', function increaseguestScoreOne(){
+    guestScore++
+    // console.log(guestScore)
     guestScoreEl.textContent = guestScore
-}
+})
 
-function increaseGuestScoreTwo(){
-    // console.log('clicked');
+guestScoreBtnTwo.addEventListener('click', function increaseguestScoreTwo(){
     guestScore += 2
-    // console.log(homeScore)
     guestScoreEl.textContent = guestScore
-}
+})
 
-function increaseGuestScoreThree(){
-    // console.log('clicked');
+guestScoreBtnThree.addEventListener('click', function increaseguestScoreThree(){
     guestScore += 3
-    // console.log(homeScore)
     guestScoreEl.textContent = guestScore
-}
+})
