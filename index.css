@@ -1,5 +1,7 @@
 /* Follow this desing in Figma https://www.figma.com/file/V3s4C38cpsk1vOWNIC3yNt/Basketball-Scoreboard-(Copy)?node-id=107%3A158 */
 
+/* I searched the Cursed Time font in https://www.fontspace.com and download it. Then I added the .ttf file to the main directory. Finally, I add the '@font-face' rule to be able to display a custom font*/
+
 @font-face {
     font-family: Cursed Timer;
     src: url("CursedTimerUlil-Aznm.ttf");
