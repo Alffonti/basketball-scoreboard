@@ -18,8 +18,20 @@ body {
     align-content: center;
     width: 100vw;
     height: 100vh;
-    background: #1B244A;
+    background-color: rgba(27, 36, 74, .85);
+    // background: #1B244A url("img/background.jpg") no-repeat center center;
+    // background-size: cover;
+    // background-blend-mode: multiply;
     color: #EEEEEE;
+    position: relative;
+}
+
+.bg-image {
+    position: absolute;
+    z-index: -1;
+    width: 110%;
+    height: 100%;
+    object-fit: cover;
 }
 
 h3{
@@ -61,4 +73,8 @@ button{
     border-radius: 5px;
     padding: 10px ;
     font-family: Cursed Timer;
+}
+
+button:hover{
+    color: #fff;
 }
