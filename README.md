@@ -4,7 +4,7 @@ This is a project from the Scrimba Frontend Developer Path. It features a [baske
 
 ## About The Project
 
-![Basketball Scoreboard screenshot](./screenshot.jpg)
+![Basketball Scoreboard screenshot](https://user-images.githubusercontent.com/69361901/197352005-d0ee544c-da1b-4488-844a-60f89603f9ce.png)
 
 This project uses a custom font which was downloaded from [Fontspace](https://www.fontspace.com/).
 
